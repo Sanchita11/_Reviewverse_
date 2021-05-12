@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load static %}}
+
+{% block banner %}
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <!--<br><br>
+        <h1 class="header center indigo-text">Reviewverse</h1>
+        <div class="row center">
+        </div>
+        <br><br>
+        !-->  
+        <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea type="submit" id="textarea1" name="q" value="{{ request.GET.q }}" class="materialize-textarea white-text"></textarea>
+              <label for="textarea1">Search for a movie</label>
+            </div>
+            <button type="submit" name="action" class="waves-effect waves-light btn"><i class="material-icons left">search</i>Search</button>
+          </div>
+        </form>
+      </div>
+      <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'img/bp2.jpg' %}" alt="Unsplashed background img 1"></div>
+  </div>
+{% endblock %}
+
+{% block content %}
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text"><i class="material-icons">movie</i></h2>
+            <h5 class="center">Find your favourite movie</h5>
+
+            <p class="light">If you're looking for information about all things cinema related, you came to the right place! Search for your favourite movies and get access to popular reviews and much more. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text"><i class="material-icons">library_add</i></h2>
+            <h5 class="center">Create watchlist and more</h5>
+
+            <p class="light">Compile your favourite movies together to create watchlists and show off your taste in movies.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text"><i class="material-icons">rate_review</i></h2>
+            <h5 class="center">Review your favourite movies</h5>
+
+            <p class="light">Leave your opinions about movies in the review section and rate movies to help our platform grow. Register now!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Explore the world of movies with Reviewverse</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'img/lotr.jpg' %}" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="center-align light">If you've got questions, we've got the answers! Feel free to get in touch with our team for all enquiries and we'll be here to help.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Explore the world of movies with Reviewverse</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'img/imitation.jpg' %}" alt="Unsplashed background img 3"></div>
+  </div>
+{% endblock %}
