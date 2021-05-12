@@ -1,0 +1,25 @@
+
+<%- include("header"); -%>
+<div>
+    <h1 style="text-align: center;">
+        Results:
+        <br>
+    </h1>
+</div>
+
+<ul>
+    <% var count = 0 %>
+    <% for(var i=0;i<movies.length;i++){ %>
+        <% if(movies[i] < 48 || movies[i] > 57){ %> 
+            <% if(count == 14){ %>
+                <br>
+                <% count = 0 %>
+            <% } %>
+            <% count++ %>
+            <% continue %>
+        <% } %>
+        <%= movies[i] %>
+    <% } %>
+</ul>
+
+<%- include("footer"); -%>
