@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "SEPM_Project",
+			"path": "."
+		},
+		{
+			"name": "css",
+			"path": "..\\..\\..\\..\\..\\Downloads\\SEPM-main\\SEPM-main\\css"
+		},
+		{
+			"name": "js",
+			"path": "..\\..\\..\\..\\..\\Downloads\\SEPM-main\\SEPM-main\\js"
+		},
+		{
+			"name": "img",
+			"path": "..\\..\\..\\..\\..\\Downloads\\SEPM-main\\SEPM-main\\img"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"\"*.html\"": "\"html\""
+		},
+		"liveServer.settings.multiRootWorkspaceName": "SEPM_Project"
+	}
+}
