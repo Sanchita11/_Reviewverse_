@@ -30,7 +30,7 @@
     {% endif %}
     <button type="submit" value="login" class="waves-effect waves-light btn"><i class="material-icons left">send</i>Login</button>
     <input type="hidden" name="next" value="{{ next}}">
-    <a class="waves-effect waves-light btn"><i class="material-icons left">person_pin</i>Register</a>
+    <a href="{% url 'signup' %}" class="waves-effect waves-light btn"><i class="material-icons left">person_pin</i>Register</a>
     </form>
 
 </div>
