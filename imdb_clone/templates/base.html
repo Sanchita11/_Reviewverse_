@@ -32,7 +32,7 @@
     {% if user.is_authenticated %}
       <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdown1">{{ user.username }}<i class="material-icons right">arrow_drop_down</i></a>
     {% else %}
-      <li><a href="{% url 'login' %}">Please sign in</a></li>
+      <li><a href="{% url 'login' %}" class="white-text">Please sign in</a></li>
     {% endif %}
 
 
