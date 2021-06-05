@@ -162,9 +162,9 @@ def movieDetails(request, imdb_id):
 
     context = {
         'movie_data': movie_data,
-        'reviews': reviews,
-        'reviews_avg': reviews_avg,
-        'reviews_count': reviews_count,
+        #'reviews': reviews,
+        #'reviews_avg': reviews_avg,
+        #'reviews_count': reviews_count,
         'our_db': our_db,
     }
 
