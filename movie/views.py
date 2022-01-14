@@ -15,8 +15,7 @@ from django.contrib.auth.models import User
 from movie.forms import RateForm
 
 import requests
-
-# Create your views here.
+#Create your views here.
 def index(request):
     query = request.GET.get('q')
 
